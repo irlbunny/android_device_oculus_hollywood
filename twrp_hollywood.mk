@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hollywood device
 $(call inherit-product, device/oculus/hollywood/device.mk)
 
 PRODUCT_DEVICE := hollywood
-PRODUCT_NAME := omni_hollywood
+PRODUCT_NAME := twrp_hollywood
 PRODUCT_BRAND := oculus
 PRODUCT_MODEL := Quest 2
 PRODUCT_MANUFACTURER := oculus

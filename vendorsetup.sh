@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_hollywood-user
-add_lunch_combo omni_hollywood-userdebug
-add_lunch_combo omni_hollywood-eng
+add_lunch_combo twrp_hollywood-user
+add_lunch_combo twrp_hollywood-userdebug
+add_lunch_combo twrp_hollywood-eng

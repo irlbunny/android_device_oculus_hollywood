@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_hollywood.mk
+    $(LOCAL_DIR)/twrp_hollywood.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_hollywood-user \
-    omni_hollywood-userdebug \
-    omni_hollywood-eng
+    twrp_hollywood-user \
+    twrp_hollywood-userdebug \
+    twrp_hollywood-eng
