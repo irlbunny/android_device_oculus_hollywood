@@ -15,7 +15,7 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     system \
     vendor
-BOARD_USES_RECOVERY_AS_BOOT := false
+BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
